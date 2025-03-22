@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+body{
+    background-color: rgb(195, 155, 231);
+}
+
+
+
+
+h1{
+    padding: 10px ;
+    padding-left: 580px;
+    font-size: 20px;
+    color: rgba(38, 5, 68, 0.281);
+}
+
+main{
+    /* background-color: burlywood; */
+    height: 300px;
+}
+
+img{
+    margin-left: 470px;
+    mix-blend-mode:darken;
+    height: 350px;
+}
+
+h2{
+    padding-left: 420px;
+    font-size: 60px;
+    color: rgb(68, 0, 117);
+}
+
+
+footer{
+    margin-top: 150px;
+    /* background-color: brown; */
+    width: 900px;
+    
+}
+.no{
+    width: 130px;
+    height: 70px;
+    border-radius: 50px;
+    font-size: 30px;
+    margin-left: 390px;
+}
+.no:hover{
+    /* opacity: 0; */
+    
+    margin-left: 40px;
+}
+.no a{
+    text-decoration: none;
+}
+.yes{
+    width: 130px;
+    height: 70px;
+    border-radius: 50px;
+    font-size: 30px;
+    margin-left: 850px;
+    position: fixed;
+    margin-top: 150px;
+}
+
+.yes:hover{
+    background-color: blueviolet;
+}
+
+.yes a{
+    text-decoration: none;
+}
+.yes a:hover{
+    color: azure;
+}
+.per{
+    display: flex;
+}
+
+
+
+.panda{
+    display: flex;
+}
+
+h3{
+    padding: 150px;
+    font-size: 100px;
+    color: rgb(21, 1, 39);
+}
+
+.panda img{
+    height: 600px;
+    position: fixed;
+}
