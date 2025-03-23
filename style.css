@@ -97,3 +97,102 @@ h3{
     height: 600px;
     position: fixed;
 }
+
+@media screen and (max-width: 768px) {
+    body{
+        background-color: rgb(195, 155, 231);
+    }
+    
+    
+    
+    
+    h1{
+        padding: 10px ;
+        padding-left: 150px;
+        font-size: 20px;
+        color: rgba(38, 5, 68, 0.281);
+    }
+    
+    main{
+        margin-top: 5vh;
+        /* background-color: burlywood; */
+        height: 300px;
+    }
+    
+    img{
+        margin-left: 40px;
+        mix-blend-mode:darken;
+        height: 350px;
+    }
+    
+    h2{
+        padding-left: 55px;
+        font-size: 40px;
+        color: rgb(68, 0, 117);
+    }
+    
+    
+    footer{
+        margin-top: 150px;
+        /* background-color: brown; */
+        width: 500px;
+        
+    }
+    .no{
+        width: 110px;
+        height: 50px;
+        border-radius: 50px;
+        font-size: 30px;
+        margin-left: 70px;
+    }
+    .no:hover{
+        /* opacity: 0; */
+        
+        margin-top: 180px;
+    }
+    .no a{
+        text-decoration: none;
+    }
+    .yes{
+        width: 110px;
+        height: 50px;
+        border-radius: 50px;
+        font-size: 30px;
+        margin-left: 250px;
+        position: fixed;
+        margin-top: 150px;
+    }
+    
+    .yes:hover{
+        background-color: blueviolet;
+    }
+    
+    .yes a{
+        text-decoration: none;
+    }
+    .yes a:hover{
+        color: azure;
+    }
+    .per{
+        display: flex;
+    }
+    
+    
+    
+    .panda{
+        /* display: flex; */
+    }
+    
+    h3{
+        padding: 50px;
+        font-size: 80px;
+        color: rgb(21, 1, 39);
+    }
+    
+    .panda img{
+        height: 500px;
+        margin-top: 20vh;
+        /* position: fixed; */
+        margin-left: -8vw;
+    }
+}
